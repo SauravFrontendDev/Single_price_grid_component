@@ -16,6 +16,9 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+span,
+a {
   display: inline-block;
 }
 
@@ -159,7 +162,7 @@ body {
     font-size: 1.125rem;
     line-height: normal;
     letter-spacing: -0.225px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.125rem;
   }
   .container__text {
     font-size: 1rem;
