@@ -14,33 +14,62 @@
 
     <title>Frontend Mentor | Single Price Grid Component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- Google Fonts Karla 400, 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+    <article class="container">
+      <div class="white__container">
+        <h1 class="container__heading">Join our community</h1>
+        <h3 class="container__subheading">
+          30-day, hassle-free money back guarantee
+        </h3>
+        <p class="container__text">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="grid__container">
+        <div class="card__dark">
+          <h2 class="card__heading">Monthly Subscription</h2>
+          <div class="price__container">
+            <span class="price__figure">$29</span>
+            <span class="price__tag">per month</span>
+          </div>
+          <div class="card__dark--text">Full access for less than $1 a day</div>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <div class="card__light">
+          <h2 class="card__heading">Why Us</h2>
+          <p class="card__light--text">
+            Tutorials by industry experts<br />
+            Peer & expert code review<br />
+            Coding exercises<br />
+            Access to our GitHub repos<br />
+            Community forum<br />
+            Flashcard decks<br />
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </article>
 
-    <footer>
+    <!-- <footer>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>
